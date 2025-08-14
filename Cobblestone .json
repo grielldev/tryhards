@@ -1,0 +1,43 @@
+{
+    "armorSetName": "cobblestone",
+    "performanceMode": true,
+    "head": {
+        "itemKey": "morearmor:cobblestone_armor_helmet",
+        "mustBeEmpty": false
+    },
+    "chest": {
+        "itemKey": "morearmor:cobblestone_armor_chestplate",
+        "mustBeEmpty": false
+    },
+    "legs": {
+        "itemKey": "morearmor:cobblestone_armor_leggings",
+        "mustBeEmpty": false
+    },
+    "boots": {
+        "itemKey": "morearmor:cobblestone_armor_boots",
+        "mustBeEmpty": false
+    },
+    "fullSetBonuses": [
+        {
+            "type": "effect",
+            "name": "minecraft:slowness",
+            "value": 0,
+            "interactionType": "self",
+            "interactionDuration": 200,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        },
+        {
+            "type": "attribute",
+            "name": "minecraft:generic.armor",
+            "value": 2.0,
+            "modifierUUID": "4fd4029c-4f37-42f8-8fef-7ab52343aac2",
+            "description": "+2 Armor",
+            "attributeOperation": 0,
+            "interactionType": "self",
+            "interactionDuration": 100,
+            "hideBonusDescription": false,
+            "onlyImmuneToNewEffects": false
+        }
+    ]
+}

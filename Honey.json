@@ -1,0 +1,38 @@
+{
+  "armorSetName": "Golden_apple",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:honeycomb_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "extraarmor:honeycomb_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "extraarmor:honeycomb_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "extraarmor:honeycomb_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:haste",
+      "value": 0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false
+    }
+  ]
+}

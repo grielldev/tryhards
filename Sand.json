@@ -1,0 +1,38 @@
+{
+  "armorSetName": "Sand",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "morearmor:sand_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "morearmor:sand_armor_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "morearmor:sand_armor_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "morearmor:sand_armor_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:levitation",
+      "value": 0,
+      "interactionType": "attack",
+      "interactionDuration": 3000,
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "value": 0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false
+    }
+  ]
+}

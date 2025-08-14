@@ -1,0 +1,44 @@
+{
+  "armorSetName": "Water",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "morearmor:water_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "morearmor:water_armor_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "morearmor:water_armor_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "morearmor:water_armor_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:dolphins_grace",
+      "value": 0,
+      "interactionType": "self",
+      "interactionDuration": 3000,
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:glowing",
+      "value": 0,
+      "interactionType": "attack",
+      "interactionDuration": 3000,
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:water_breathing",
+      "interactionType": "immunity",
+      "description": "Water breathing immunity"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "armorSetName": "Copper",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:copper_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "extraarmor:copper_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "extraarmor:copper_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "extraarmor:copper_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:mining_fatigue",
+      "value": 0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false
+    }
+  ]
+}

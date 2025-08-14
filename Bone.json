@@ -1,0 +1,46 @@
+{
+  "armorSetName": "Bone",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "extraarmor:bone_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "extraarmor:bone_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "extraarmor:bone_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "extraarmor:bone_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:wither",
+      "value": 0,
+      "interactionType": "attack",
+      "interactionDuration": 100,
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "value": 0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:mining_fatigue",
+      "value": 0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false
+    }
+  ]
+}
