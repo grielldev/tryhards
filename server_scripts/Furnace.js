@@ -10,7 +10,8 @@ ServerEvents.recipes(event => {
     ],
     {
     A: 'minecraft:cobblestone',
-    B: 'minecraft:copper_ingot'
+    B: 'minecraft:raw_copper'
     }
   )
+
 })
